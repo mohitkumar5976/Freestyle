@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import CollaborativePage from "./pages/CollaborativePage";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<CollaborativePage />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </Router>
   );
